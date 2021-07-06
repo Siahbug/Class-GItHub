@@ -1,0 +1,18 @@
+/*.main{
+  width: 100%;
+  float: none;
+}*/
+@media screen and (max-width: 500px) {
+  .col1, .col2{
+    width: 100%;
+  }
+
+}
+@media screen and (min-width: 598px) {
+  .col1, .col2{
+    width: 45%;
+  }
+  .col3{
+    width: 100%;
+  }
+}

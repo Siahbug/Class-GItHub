@@ -1,0 +1,45 @@
+/* Who are YOU??!! */
+body{
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #e0fffb;
+  box-sizing: border-box;
+}
+
+.container{
+  width:90%;
+  margin:auto;
+  max-width: 1200px;
+  background-color: #b5e8e1;
+}
+header {
+  background-image: url(South_Korea.jpg);
+  color: #2da494;
+	padding: 40px 25px;
+}
+.cols {
+  padding: 50px 10px 5px 10px;
+  line-height: 1.5
+}
+
+img {
+  width: 100%;
+  height: auto;
+  margin: 0 0 10px 0;
+}
+.col1, .col2, .col3 {
+  float:left;
+  width:30%;
+  margin-right:5%;
+}
+
+.col3{
+  margin-right: 0%;
+}
+.main{
+  width: 65%;
+	float: left;
+	margin-right: 5%;
+}
+.hi:after { content: ""; display: table;clear: both; }
